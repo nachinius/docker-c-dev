@@ -19,4 +19,4 @@ A friendly environment to develop in C.
     docker build -t cdev .
 
 ### use
-   docker run -it --rm -v "$PWD":/usr/src/app -w /usr/src/app cdev /bin/bash
+    docker run -it --rm -v "$PWD":/usr/src/app -w /usr/src/app cdev /bin/bash
